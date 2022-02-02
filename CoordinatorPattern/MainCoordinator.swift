@@ -11,7 +11,12 @@ class MainCoordinator: Coordinator {
     var navigationController: UINavigationController?
 
     func eventOccurred(with type: Event) {
-
+        switch type {
+        case .ButtonTapped:
+            var vc: UIViewController & Coordinating = SecondViewController()
+            vc.coordinator = self
+            navigationController?.pushViewController(vc, animated: true)
+        }
     }
 
     func start() {

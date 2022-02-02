@@ -22,11 +22,11 @@ class ViewController: UIViewController, Coordinating {
         button.backgroundColor = .systemGreen
         button.setTitleColor(.white, for: .normal)
         button.addTarget(self, action: #selector(didTapButton), for: .touchUpInside)
+        button.setTitle("Tap Me!", for: .normal)
     }
 
     @objc func didTapButton() {
-    
-
+        coordinator?.eventOccurred(with: .ButtonTapped)
     }
 
 
