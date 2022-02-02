@@ -14,6 +14,7 @@
 		5E52D2EF27AACDA700E78A96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E52D2ED27AACDA700E78A96 /* LaunchScreen.storyboard */; };
 		5E52D2F727AAE6C600E78A96 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E52D2F627AAE6C600E78A96 /* Coordinator.swift */; };
 		5E52D2F927AAE77500E78A96 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E52D2F827AAE77500E78A96 /* MainCoordinator.swift */; };
+		5E52D2FB27AAEA2700E78A96 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E52D2FA27AAEA2700E78A96 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5E52D2F027AACDA700E78A96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E52D2F627AAE6C600E78A96 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		5E52D2F827AAE77500E78A96 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		5E52D2FA27AAEA2700E78A96 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				5E52D2F027AACDA700E78A96 /* Info.plist */,
 				5E52D2F627AAE6C600E78A96 /* Coordinator.swift */,
 				5E52D2F827AAE77500E78A96 /* MainCoordinator.swift */,
+				5E52D2FA27AAEA2700E78A96 /* SecondViewController.swift */,
 			);
 			path = CoordinatorPattern;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E52D2FB27AAEA2700E78A96 /* SecondViewController.swift in Sources */,
 				5E52D2F727AAE6C600E78A96 /* Coordinator.swift in Sources */,
 				5E52D2E727AACDA600E78A96 /* ViewController.swift in Sources */,
 				5E52D2E327AACDA600E78A96 /* AppDelegate.swift in Sources */,
