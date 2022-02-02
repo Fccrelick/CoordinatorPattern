@@ -15,7 +15,11 @@ class MainCoordinator: Coordinator {
     }
 
     func start() {
-        
+        var vc: UIViewController & Coordinating = ViewController()
+
+        vc.coordinator = self
+
+        navigationController?.setViewControllers([vc], animated: false)
     }
 
 
